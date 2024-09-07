@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- código omitido -->
+
+<head>
+    <!-- código omitido -->
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        
+    <!-- código omitido -->
+    </head>
+    
+    <!-- código omitido -->
+    <title>Preso em um Outro Mundo</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Você é um ou uma jovem que caiu em um mundo magíco, após cair em um poço. Você encontra um mapa com dois caminhos, para onde você irá?</p>
+            <button class="btn-proximo" data-proximo="1">Reino Hero</button>
+            <button class="btn-proximo" data-proximo="2">Reino Draco</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você foi ao reino Hero, ele parece um reino pacífico e bem bonito. Você pode explorar esse reino por conta proptia ou pedir alguma informação sobre esse reino.</p>
+            <button class="btn-proximo" data-proximo="3">Pedir informações</button>
+            <button class="btn-proximo" data-proximo="4">Explorar sozinho</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você foi ao reino Draco, ele parece mal cuidado e perigoso.Você pode explorar esse reino por conta propria.</p>
+            <button class="btn-proximo" data-proximo="6">Explorar sozinho</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você se aproxima de um homem sentado em um banco e ele te fala com gentileza que você pode achar respostas na biblioteca do reino.</p>
+            <button class="btn-proximo" data-proximo="7">Procurar sobre esse reino</button>
+            <button class="btn-proximo" data-proximo="8">Procurar um livro sobre esse mundo</button>
+        </div>
+    
+        <div class="passo" id="passo-4">
+            <p>Você não encontra nada. </p>
+        </div>
+    
+        <div class="passo" id="passo-5">
+            <p>Você vai até um homem sem teto e ele te diz que se quer respostas vá para a biblioteca do reino.</p>
+        </div>
+    
+        <div class="passo" id="passo-6">
+            <img src="morte-passo6.png" alt="tela de morte">
+            <p>OH NÃO!!, você vaga pela cidade mas é pego e morto por um bandido em um beco do reino.</p>
+        </div>
+    
+        <div class="passo" id="passo-7">
+            <img src="biblioteca.png" alt="imagem de uma biblioteca">
+            <p>Você encontra apenas informações que não vao te ajudar</p>
+            <button class="btn-proximo" data-proximo="9">Procurar um livro sobre esse mundo</button>
+        </div>
+    
+        <div class="passo" id="passo-8">
+            <img src="biblioteca.png" alt="imagem de uma biblioteca">
+            <p>Você encontra um livro que explica sobre o mundo em que você  esta, voce descobre que tem um portal que pode te levar de volta ao seu mundo, você pode ir até o portal ou pedir ajuda ao rei do reino.</p>
+            <button class="btn-proximo" data-proximo="9">Pedir ajuda ao rei</button>
+            <button class="btn-proximo" data-proximo="10">Ir até até o portal</button>
+        </div>
+    
+        <div class="passo" id="passo-9">
+            <img src="biblioteca.png" alt="imagem de uma biblioteca">
+            <p>Você encontra um livro que explica sobre o mundo em que você  esta, voce descobre que tem um portal que pode te levar de volta ao seu mundo, você pode ir até o portal.</p>
+            <button class="btn-proximo" data-proximo="10">Ir até até o portal</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="portal.png" alt="imagem de um portal">
+            <p>Você chega até o portal e consegue voltar para casa em segurança.
+        </div>
+        </div>
+    </main>
+     <script src="script.js"></script>
+</body>
+</html>
